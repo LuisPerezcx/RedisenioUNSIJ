@@ -1,0 +1,41 @@
+/* Barra de navegacion*/
+.navbar{
+    /*background-color:;*/
+    color: #00653b;
+}
+@media screen and (max-width:760px){
+    .navbar-brand{
+        display: none;
+    }
+    .navbar .navbar-nav .nav-item .dropdown-toggle {
+        position: static !important; /* Evita que el botón se mueva */
+    }
+}
+.navbar-collapse{
+    align-items:center;
+    justify-content: space-between;
+}
+.dropdown-item{
+    text-align: center;
+    align-items:center;
+    justify-content: space-between;
+}
+.navbar-nav .nav-item a:hover {
+    background-color: #00653b; /* Cambia este color por el que desees */
+    color: white;
+}
+.card-img{
+    opacity: 0.5;
+}
+.image-container img {
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
+}
+.img-footer{
+    height: 100px;
+    width: 100px;
+}
+.redesSociales{
+    width: 10%;
+    height: auto;
+}
